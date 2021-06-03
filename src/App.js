@@ -32,7 +32,10 @@ function App(props) {
 const mapStateToProps=(state)=>{
   return{};
 }
-
+const port= process.env.PORT||8000;
+app.listen(port,()=>{
+  console.log(`Lis ${port}`);
+})
 const mapDispatchToProps=(dispatch)=>({
  getUserAuth:()=>dispatch(getUserAuth()),
 
