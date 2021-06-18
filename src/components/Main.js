@@ -50,6 +50,60 @@ const Main = (props) => {
    </ShareBox>
    <div>
        <Article><SharedActor>
+           <a href>
+               <img src="/images/user.svg"  alt=" "/>
+               <div>
+                   <p>
+                   <span>Title</span> </p>
+                   <p> <span>Info</span> </p>
+                   <p> <span> Date</span> </p>
+                  
+               </div>
+           </a>
+           <button>
+               <img src="/images/menu.PNG" alt=" "/>
+           </button>
+           </SharedActor>
+           <Description>Description</Description>
+           <SharedImg>
+               <a>
+                   <img src="/images/help.PNG" alt=""></img>
+                   </a>
+           </SharedImg>
+           <SocialCounts>
+                   
+                    <button>
+                           <img src="/images/likes.PNG" alt=" "/>
+                          
+                           <img src="/images/share.PNG" alt=" "/>
+                           <img src="/images/heart.PNG" alt=" "/>
+                           <img src="/images/e.PNG" alt=" "/>
+                           
+                       </button>
+                       
+        </SocialCounts>
+        <SocialActions>
+        <button>
+            <img src="/images/Like1.PNG" alt=""></img>
+
+        </button>
+        <button>
+            <img src="/images/Comment.PNG" alt=""></img>
+    
+        </button>
+        <button>
+            <img src="/images/share2.PNG" alt=""></img>
+    
+        </button>
+        <button>
+            <img src="/images/send.PNG" alt=""></img>
+    
+        </button>
+        </SocialActions>
+     </Article>
+    </div>
+    <div>
+       <Article><SharedActor>
            <a>
                <img src="/images/user.svg"  alt=" "/>
                <div>

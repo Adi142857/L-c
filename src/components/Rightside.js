@@ -11,7 +11,7 @@ const Rightside = (props) => {
 
         <FeedList>
           <li>
-            <a>
+            <a href>
               <Avatar />
             </a>
             <div>
@@ -20,7 +20,7 @@ const Rightside = (props) => {
             </div>
           </li>
           <li>
-            <a>
+            <a href>
               <Avatar />
             </a>
             <div>
@@ -29,7 +29,7 @@ const Rightside = (props) => {
             </div>
           </li>
           <li>
-            <a>
+            <a href>
               <Avatar />
             </a>
             <div>
@@ -38,7 +38,7 @@ const Rightside = (props) => {
             </div>
           </li>
           <li>
-          <a>
+          <a href>
             <img src="/images/newsk.PNG"></img>
           </a>
           </li>
@@ -50,10 +50,7 @@ const Rightside = (props) => {
         </Recommendation>
       </FollowCard>
       <BannerCard>
-        <img
-          src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"
-          alt=""
-        />
+       
       </BannerCard>
     </Container>
   );

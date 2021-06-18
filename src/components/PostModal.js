@@ -32,7 +32,7 @@ const PostModal=(props)=>{
                 <SharedCreation>
                     <AttachAssets>
                         <AssetButton>
-                            <img src="/images/shared-image.PNG" alt/>
+                            <img src="/images/shared-image.PNG" alt=""/>
                         </AssetButton>
                    <AssetButton>
                        <img src="/images/share-video.PNG" alt=""/>
