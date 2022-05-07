@@ -16,7 +16,7 @@ const Login = (props) => {
         </a>
         <div>
           <Join>Join now</Join>
-          <SignIn>Sign in</SignIn>
+          <SignIn onClick={()=>props.signIn()}>Sign in</SignIn>
         </div>
       </Nav>
       <Section>
@@ -68,6 +68,7 @@ const Join = styled.a`
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
+    cursor: pointer;
   }
 `;
 
@@ -86,6 +87,7 @@ const SignIn = styled.a`
     background-color: rgba(112, 181, 249, 0.15);
     color: #0a66c2;
     text-decoration: none;
+    cursor:pointer;
   }
 `;
 
@@ -166,6 +168,7 @@ const Google = styled.button`
   &:hover {
     background-color: rgba(207, 207, 207, 0.25);
     color: rgba(0, 0, 0, 0.75);
+    cursor:pointer;
   }
 `;
 const mapStateToProps=(state)=>{
