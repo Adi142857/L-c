@@ -8,7 +8,7 @@ const firebaseConfig = {
     messagingSenderId: process.env.REACT_APP_DEV_MESSAGING_SENDER_ID,
     appId: process.env.REACT_APP_DEV_APP_ID,
   };
-
+//create env through firebase console
   const firebaseApp=firebase.initializeApp(firebaseConfig);
   const db=firebaseApp.firestore();
   const auth=firebase.auth();
